@@ -32,14 +32,7 @@ This PHP-based API allows for managing player information in a MySQL database. I
 
 ## **Installation**
 
-### **1. Clone the Repository**
-
-```bash
-git clone https://github.com/yourusername/player-info-api.git
-cd player-info-api
-```
-
-### **2. Database Setup**
+### **1. Database Setup**
 
 Create a MySQL database and table for storing player data:
 
@@ -62,7 +55,7 @@ CREATE TABLE player_info (
 );
 ```
 
-### **3. Configure the PHP Script**
+### **2. Configure the PHP Script**
 
 Edit the connection variables in `playerinfo.php` to match your MySQL database configuration:
 
@@ -73,7 +66,7 @@ $password = "yourpassword"; // Use your MySQL password
 $dbname = "players";       // Database name
 ```
 
-### **4. Deploy the PHP Script**
+### **3. Deploy the PHP Script**
 
 Place `playerinfo.php` in your web server's root directory:
 
