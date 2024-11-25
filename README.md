@@ -1,8 +1,4 @@
 # SQL-x-Pscp
-Here's a detailed README for your GitHub repository, covering the setup and usage instructions for the PHP script managing player information:
-
----
-
 # **Player Information Management API**
 
 This PHP-based API allows for managing player information in a MySQL database. It supports CRUD operations (Create, Read, Update) for fields such as player name, level, credits, banned status, mute status, rank, and more.
